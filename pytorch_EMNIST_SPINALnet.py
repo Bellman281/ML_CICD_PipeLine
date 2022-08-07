@@ -9,7 +9,7 @@ import time
 from collections import OrderedDict
 import os
 
-n_epochs = 2
+n_epochs = 1
 batch_size_train = 64
 batch_size_test = 32
 learning_rate = 0.01
