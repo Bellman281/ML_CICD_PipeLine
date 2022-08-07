@@ -1,2 +1,2 @@
-# ML_CICD_PipeLine
-Continuous Machine Learning | CI/CD for ML
+# ML CICD PipeLine
+Continuous Machine Learning Pipeline | CI/CD for ML
