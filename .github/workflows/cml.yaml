@@ -12,8 +12,8 @@ jobs:
           run:
           
           ### ML workflow
-          pip install -r reqiurements.txt
-          python model.py
+          pip install -r requirements.txt
+          python pytorch_EMNIST_SPINALnet.py
           
           
         
