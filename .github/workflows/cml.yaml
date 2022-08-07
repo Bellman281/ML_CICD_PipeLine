@@ -12,7 +12,7 @@ jobs:
           run:
           
           ### ML workflow
-          pip install -r reqiurments.txt
+          pip install -r reqiurements.txt
           python model.py
           
           
