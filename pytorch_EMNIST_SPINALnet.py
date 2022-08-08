@@ -34,12 +34,12 @@ def load_data(val_split=0.8):
     
     train_set = datasets.EMNIST(root="data", split="balanced", train=True, 
                                 transform = transforms.Compose([ToTensor(),
-                               Normalize( (0.1307,), (0.3081,))])  )
+                               Normalize( (0.1307,), (0.3081,))]) ,download=True )
                                                     
     test_set = datasets.EMNIST(root="data", split="balanced", train=False, 
                                transform=transforms.Compose([
                                ToTensor(),
-                               Normalize((0.1307,), (0.3081,))]) )
+                               Normalize((0.1307,), (0.3081,))]) ,download=True)
     
     train_ = torch.utils.data.DataLoader(train_set, shuffle=True)
 
